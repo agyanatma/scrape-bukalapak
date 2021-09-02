@@ -1,0 +1,19 @@
+{
+    "name": "scrape-bukalapak",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "scrape": "rm -rf reviews.xlsx && node scraper.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "excel4node": "^1.7.2",
+        "express": "^4.17.1",
+        "puppeteer": "^10.2.0",
+        "xlsx": "^0.17.1"
+    }
+}
